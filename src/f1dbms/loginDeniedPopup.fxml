@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="152.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="f1dbms.LoginDeniedPopupController">
+   <children>
+      <Text layoutX="54.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invalid Credentials!" />
+      <Button fx:id="okBut" layoutX="87.0" layoutY="104.0" mnemonicParsing="false" onMouseClicked="#clsButton" text="OK" />
+   </children>
+</Pane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="f1dbms.CircuitInfoController">
+   <children>
+      <Text layoutX="60.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CIRCUIT CODE" />
+      <Text fx:id="name" layoutX="157.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="laps" layoutX="157.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="60.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LAPS" />
+      <Text fx:id="laprec" layoutX="157.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="60.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INAUGRAL RACE" />
+      <Text fx:id="len" layoutX="157.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="60.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RACE DISTANCE" />
+      <ImageView fx:id="cirimg" fitHeight="270.0" fitWidth="337.0" layoutX="242.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="252.0" layoutY="319.0" mnemonicParsing="false" onAction="#show" text="Load Data" textAlignment="CENTER" />
+      <Text fx:id="len1" layoutX="207.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kms" />
+   </children>
+</AnchorPane>

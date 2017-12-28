@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="deployPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="f1dbms.DeployScreenController">
+   <children>
+      <TextField fx:id="driverName" layoutX="92.0" layoutY="150.0" />
+      <Text layoutX="46.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME" />
+      <TextField fx:id="nationalityField" layoutX="92.0" layoutY="191.0" />
+      <Text layoutX="26.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NATIONALITY" />
+      <TextField fx:id="teamField" layoutX="92.0" layoutY="236.0" />
+      <Text layoutX="46.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM" />
+      <TextField fx:id="ageField" layoutX="92.0" layoutY="294.0" />
+      <Text layoutX="50.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGE" />
+      <Text layoutX="310.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Races" />
+      <Text layoutX="311.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Poles" />
+      <Text layoutX="312.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wins" />
+      <Text layoutX="290.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="World Championships" />
+      <Text layoutX="38.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Driver ID" />
+      <TextField fx:id="driverID" layoutX="92.0" layoutY="106.0" />
+      <TextField fx:id="raceField" layoutX="422.0" layoutY="150.0" />
+      <TextField fx:id="poleField" layoutX="422.0" layoutY="191.0" />
+      <TextField fx:id="winField" layoutX="422.0" layoutY="236.0" />
+      <TextField fx:id="wcField" layoutX="422.0" layoutY="294.0" />
+      <Text layoutX="315.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM ID" />
+      <Button fx:id="check" layoutX="249.0" layoutY="106.0" mnemonicParsing="false" onMouseClicked="#checkStatus" text="Check" />
+      <TextField fx:id="teamID" layoutX="422.0" layoutY="106.0" />
+      <ButtonBar layoutX="165.0" layoutY="336.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" onMouseClicked="#add" text="ADD" />
+            <Button mnemonicParsing="false" onMouseClicked="#update" text="UPDATE" />
+            <Button mnemonicParsing="false" onMouseClicked="#remove" text="REMOVE" />
+        </buttons>
+      </ButtonBar>
+      <TextField fx:id="carID" layoutX="236.0" layoutY="45.0" />
+      <Button fx:id="backButton" layoutX="35.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#goBack" text="back" />
+   </children>
+</Pane>

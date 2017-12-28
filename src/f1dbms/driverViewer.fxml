@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="f1dbms.DriverViewerController">
+   <children>
+      <ImageView fx:id="driverimage" fitHeight="223.0" fitWidth="179.0" layoutX="37.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="namLab" layoutX="428.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="310.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NATIONALITY" />
+      <Text layoutX="336.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGE" />
+      <Text layoutX="329.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RACES" wrappingWidth="47.13671875" />
+      <Text layoutX="294.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POLE POSITION" />
+      <Text layoutX="37.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WINS" />
+      <Text layoutX="14.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WORLD CHAMPIONSHIPS" />
+      <Button layoutX="258.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#dipView" text="Button" />
+      <Text layoutX="341.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME" />
+      <Text fx:id="nationality" layoutX="433.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="age" layoutX="434.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="race" layoutX="433.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="pole" layoutX="433.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="driverworldchamp" layoutX="186.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="win" layoutX="186.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="336.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEAM" />
+      <Text fx:id="team" layoutX="417.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
